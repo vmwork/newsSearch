@@ -59,7 +59,7 @@ const http = customHttp();
 
 const newService = (function () {
   const apikey = '582d3ca14bbd4a3d877a5b4bdf891712';
-  const apiUrl = 'http://newsapi.org/v2';
+  const apiUrl = 'https://newsapi.org/v2';
   return {
     topHeadLines(country = 'ua', cb) {
       http.get(
